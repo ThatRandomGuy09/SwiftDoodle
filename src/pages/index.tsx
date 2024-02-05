@@ -1,7 +1,11 @@
-export default function Home() {
+// import DrawingCanvas from '../components/DrawingCanvas';
+
+const Home: React.FC = () => {
   return (
-    <div>
-      <h1 className="text-green-500">Hello</h1>
+    <div className="flex items-center justify-center h-screen">
+      {/* <DrawingCanvas /> */}
     </div>
   );
-}
+};
+
+export default Home;
